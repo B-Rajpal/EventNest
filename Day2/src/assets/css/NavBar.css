@@ -1,0 +1,39 @@
+body{
+    margin:0;
+}
+.nav{
+    margin:0;
+    background-color: orange;
+    padding: 0.3vh;
+  }
+  #logo{
+    width:350px;
+    height:100px;
+    /* animation: shine 2s  infinite linear; */
+  }
+  @keyframes shine {
+    0% {
+      left: 0px;
+      opacity: 0.5;
+    }
+    100% {
+      left: 100px;
+      opacity: 1;
+    }
+  }
+.navcontent{
+  float:right;
+  padding:3vh;
+}
+.navcontent Button{
+  background-color: white;
+  color: orange;
+  margin:2vh;
+}
+.navcontent Button:hover{
+  background-color: orange;
+  color: white;
+}
+.navcontent .text{
+  text-decoration: none;
+}

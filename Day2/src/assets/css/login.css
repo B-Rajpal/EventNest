@@ -1,0 +1,24 @@
+.login{
+    height:70vh;
+    width:30vw;
+    border-radius: 10%;
+    background-color: orange;
+}
+#logtit{
+    padding: 10vh;
+    color: white;
+}
+.login Button{
+    margin:30px;
+    background-color: white;
+    color: orange;
+    margin:2vh;
+  }
+.login Button:hover{
+    background-color: orange;
+    color: white;
+  }
+
+  #standard-basic{
+    width:20vw;
+  }
