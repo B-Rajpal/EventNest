@@ -1,0 +1,29 @@
+.image-container{
+    height:50vh;
+    width:80vw;
+    align-items: center;
+}
+.image-container img{
+    height:80vh;
+    width:80vw;
+}
+.home{
+    background-image: url("../images/photo 2.webp");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.homequote{
+    color:rgb(144, 11, 113);
+    font-family: 'Courier New', Courier, monospace;
+}
+.quotecontainer{
+    justify-content: center;
+    text-align: center;
+    margin:30vh;
+    height:45vh;
+}
+.quotecontainer Button{
+    color:white;
+    background-color: transparent;
+}
