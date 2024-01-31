@@ -1,0 +1,76 @@
+
+
+#logtit {
+  justify-content: center;
+  padding: 8vh;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.login Button {
+  margin: 30px;
+  background-color: transparent;
+  color: white;
+  margin: 2vh;
+}
+.login Button:hover{
+  background-color: transparent;
+}
+
+
+.textfieldlogin {
+  width: 20vw;
+}
+
+.loginmain {
+  margin :0;
+  padding:30px;
+  background-image: linear-gradient(rgba(244, 154, 154, 0.871),rgb(242, 239, 239));
+  background-size: cover;
+  height:100vh;
+  background-position: fixed;
+}
+
+.login {
+  padding:30px;
+  border:2px solid white;
+  box-shadow: 10px 10px 50px  white;
+  border-radius: 10%;
+  margin:0 0 0 25vw;
+  display: flex;
+  height:80vh;
+  width: 50vw;
+}
+.loginimage{
+  margin-top:30px;
+  margin-left: 50px;
+  right: 0;
+  height:70vh;
+  background-image: url("../images/loginimage.jpg");
+  background-size: cover;
+  width:50%;
+  text-align: center;
+}
+.imagetitle{
+  margin-top:30%;
+  color:rgb(240, 13, 142);
+  font-weight: bold;
+  font-size: 60px;
+  text-shadow: 2px 2px 2px white;
+  font-family: sans-serif;
+}
+.imagetitledesc{
+  color:white;
+  font-weight: bold;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px white;
+
+}
+.logincontainer{
+  width:50%;
+}
+.error-message{
+  color:white;
+  font-size: 14px;
+}

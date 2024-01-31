@@ -1,0 +1,59 @@
+/* contact.css */
+.contactus{
+    background-image:  linear-gradient(rgba(244, 154, 154, 0.871),rgb(242, 239, 239));
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-main {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    height: 75vh;
+  }
+  
+  .contact-container {
+    border-radius:10% ;
+    border:2px solid white;
+    box-shadow: 2px 2px 2px white;
+    width: 70%;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .contact-left,
+  .contact-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* You can customize the TextField styles based on your design */
+  .MuiOutlinedInput-root {
+    width: 100%;
+    margin-top: 5px;
+  }
+  
+  /* You can customize the IconButton styles based on your design */
+  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .sendicon{
+    float:right;
+  }
+  .contact-right{
+    margin-left:60px;
+  }
