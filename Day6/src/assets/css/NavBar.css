@@ -1,0 +1,32 @@
+body{
+    margin:0;
+}
+.nav{
+    margin:0;
+    padding: 0.2vh;
+  }
+  #logo{
+    width:250px;
+    height:150px;
+  }
+.navcontent{
+  margin:0;
+  float:right;
+  padding:3vh;
+}
+.navcontent Button{
+  font-weight: bold;
+  font-family: Lucida Calligraphy;
+  color: white;
+  box-shadow: 3px 3px 5px black;
+  background-color: transparent;
+  margin:2vh;
+}
+.navcontent Button:hover{
+  box-shadow: 3px 3px 5px black;
+  background-color: transparent;
+  color: white;
+}
+.navcontent .text{
+  text-decoration: none;
+}

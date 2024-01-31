@@ -1,0 +1,73 @@
+/* userHomePage.css */
+.userhome{
+    background-image:  url("../images/bg2.avif");
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.user-homepage {
+    margin:5vh 0 0 10vw;
+    padding: 20px;
+  }
+  
+  .widgets-container {
+    margin:0 0 0 10vw;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .widget {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .content-container {
+    
+    display: flex;
+    gap: 200px;
+    flex: 1;
+  }
+  
+  .table-container {
+    margin-top:40px;
+    width:50vw;
+    flex: 1;
+  }
+  
+  .table-heading {
+    margin-bottom: 10px;
+  }
+  
+  .calendar-container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .calendar-icon {
+    margin-bottom: 10px;
+  }
+  
+  .calendar-dates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .calendar-date {
+    background-color: #4caf50;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  .calendar-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #4caf50;
+    border-radius: 50%;
+    margin: auto;
+  }
+  

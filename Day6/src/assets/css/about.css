@@ -1,0 +1,37 @@
+.about{
+    background-image:  linear-gradient(rgba(244, 154, 154, 0.871),rgb(242, 239, 239));
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutcontainer{
+    margin:0 0 0 15vw;
+    display: flex;
+    height: 70vh;
+    width:70vw;
+    border:2px solid white;
+    box-shadow: 2px 2px 20px white;
+    padding: 20px 0 0 20px ;
+}
+.abouttext{
+    width:60%;
+}
+.imagecontainer{
+    right:0;
+    width:40%;
+    height:100%;
+}
+.aboutimage{
+    height:95%;
+    width:95%;
+
+}
+.abouttitle{
+    color: White;
+    font-family: Lucida Calligraphy;
+}
+.aboutcontent{
+    padding:30px;
+    text-align: center;
+    font-size: 25px;
+}
