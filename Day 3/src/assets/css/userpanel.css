@@ -1,0 +1,11 @@
+.userwidgets{
+    display: flex;
+    width:60vw;
+}
+.widget-container{
+    border: 5px solid gold;
+    border-radius: 10%;
+    width: 15vw;
+    text-align: center;
+    margin:30px;
+}
